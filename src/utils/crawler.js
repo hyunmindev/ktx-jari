@@ -8,7 +8,7 @@ const crawl = async () => {
   await page.goto(url);
 
   await page.$eval('#start', (el) => {
-    el.value = '부산';
+    el.value = '포항';
   });
   await page.$eval('#get', (el) => {
     el.value = '서울';
